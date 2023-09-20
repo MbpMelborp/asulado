@@ -39,10 +39,11 @@ export default function Proposito() {
       { x: 0 },
       {
         x: toMarquee,
-        duration: 10,
+        duration: 20,
         opacity: 1,
+        ease: "linear",
       },
-      "-=0",
+      "-=1",
     );
     tl.fromTo(
       ".as_proposito .as_proposito_content .prop_anim",
