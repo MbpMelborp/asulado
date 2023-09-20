@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
-import vigilado from "@/public/images/vigilado.png";
+import vigilado from "../../public/images/vigilado.png";
 export default function Footer() {
   useLenis();
   return (

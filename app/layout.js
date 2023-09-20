@@ -2,6 +2,9 @@ import "./globals.css";
 import localFont from "next/font/local";
 import Head from "next/head";
 import Script from "next/script";
+import Image from "next/image";
+
+import vigilado from "../public/images/vigilado_vert.png";
 
 //SCROLL
 // import Lenis from "@studio-freight/lenis";
@@ -82,6 +85,9 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <div className="as__wrapper">{children}</div>
+        <div className="as__header_vigilado">
+          <Image src={vigilado} alt="vigilado" />
+        </div>
       </body>
     </html>
   );
