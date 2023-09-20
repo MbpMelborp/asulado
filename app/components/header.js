@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
 
 import logo from "../../public/images/header_logo.svg";
+import { useEffect, useState } from "react";
 
 export default function Header() {
   const lenis = useLenis(({ scroll }) => {
@@ -15,6 +16,8 @@ export default function Header() {
         .classList.remove("as__header_scroll");
     }
   });
+
+  const [open, setOpen] = useState(false);
 
   return (
     <header className="as__header">
@@ -31,12 +34,22 @@ export default function Header() {
           className="as__nav_button"
           aria-controls="navbar-default"
           aria-expanded="false"
+          onClick={() => setOpen(!open)}
         >
           <span className="sr-only">Abrir menú</span>
-          <i className="fa-solid fa-bars text-xl"></i>
+          <i
+            className={
+              !open ? "fa-solid fa-bars text-xl" : "fa-solid fa-times text-xl"
+            }
+          ></i>
         </button>
 
-        <div className="as__nav_links" id="navbar-default">
+        <div
+          className={
+            open ? "as__nav_links nav_open" : "as__nav_links nav_close"
+          }
+          id="navbar-default"
+        >
           <ul>
             <li>
               <a href="#" aria-current="page">
