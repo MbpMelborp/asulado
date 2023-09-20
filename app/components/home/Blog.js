@@ -13,10 +13,10 @@ gsap.registerPlugin(ScrollTrigger);
 import Button from "../button";
 import PostSmall from "../blog/PostSmall";
 
-import blog_1 from "@/public/images/blog/blog_1.jpg";
-import blog_2 from "@/public/images/blog/blog_2.jpg";
-import blog_3 from "@/public/images/blog/blog_3.jpg";
-import blog_4 from "@/public/images/blog/blog_4.jpg";
+import blog_1 from "../../../public/images/blog/blog_1.jpg";
+import blog_2 from "../../../public/images/blog/blog_2.jpg";
+import blog_3 from "../../../public/images/blog/blog_3.jpg";
+import blog_4 from "../../../public/images/blog/blog_4.jpg";
 
 export default function Cifras() {
   useLenis();
@@ -32,7 +32,7 @@ export default function Cifras() {
         duration: 4,
         opacity: 0,
       },
-      "=0"
+      "=0",
     );
     tl.fromTo(
       ".as__blog .as__blog_posts .as__post_small a",
@@ -44,7 +44,7 @@ export default function Cifras() {
         opacity: 1,
         stagger: 0.4,
       },
-      "-=2"
+      "-=2",
     );
 
     const scroll = ScrollTrigger.create({

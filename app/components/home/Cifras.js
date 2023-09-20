@@ -15,9 +15,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 import Button from "../button";
 
-import ILUS1 from "@/public/images/ILUS1.png";
-import ILUS2 from "@/public/images/ILUS2.png";
-import ILUS3 from "@/public/images/ILUS3.png";
+import ILUS1 from "../../../public/images/ILUS1.png";
+import ILUS2 from "../../../public/images/ILUS2.png";
+import ILUS3 from "../../../public/images/ILUS3.png";
 
 export default function Cifras() {
   useLenis();
@@ -42,7 +42,7 @@ export default function Cifras() {
         duration: 4,
         opacity: 0,
       },
-      "=0"
+      "=0",
     );
     tl.fromTo(
       ".as__cifras .as__cifras_content .as__cifras_content_cifra",
@@ -54,7 +54,7 @@ export default function Cifras() {
         opacity: 1,
         stagger: 0.4,
       },
-      "-=1"
+      "-=1",
     );
 
     const scroll = ScrollTrigger.create({
@@ -77,7 +77,7 @@ export default function Cifras() {
             onUpdate: function () {
               setClientes(Math.round(counters.val));
             },
-          }
+          },
         );
         gsap.fromTo(
           counters,
@@ -91,7 +91,7 @@ export default function Cifras() {
             onUpdate: function () {
               setCobertura(Math.round(counters.val));
             },
-          }
+          },
         );
         gsap.fromTo(
           counters,
@@ -105,7 +105,7 @@ export default function Cifras() {
             onUpdate: function () {
               setColaboradores(Math.round(counters.val));
             },
-          }
+          },
         );
       },
       onUpdate: ({ progress }) => {

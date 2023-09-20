@@ -14,9 +14,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 import Button from "../button";
 
-import novedades_1 from "@/public/images/img_novedades_1.webp";
-import novedades_2 from "@/public/images/img_novedades_2.webp";
-import novedades_3 from "@/public/images/img_novedades_3.webp";
+import novedades_1 from "../../../public/images/img_novedades_1.webp";
+import novedades_2 from "../../../public/images/img_novedades_2.webp";
+import novedades_3 from "../../../public/images/img_novedades_3.webp";
 
 export default function Cifras() {
   useLenis();
@@ -34,7 +34,7 @@ export default function Cifras() {
         ease: "power4.inout",
         yoyo: true,
       },
-      "0"
+      "0",
     );
 
     const tl = gsap.timeline({ paused: true });
@@ -46,7 +46,7 @@ export default function Cifras() {
         duration: 1,
         opacity: 0,
       },
-      "=0"
+      "=0",
     );
 
     tl.from(
@@ -58,7 +58,7 @@ export default function Cifras() {
         opacity: 1,
         ease: "power4.out",
       },
-      "+=2"
+      "+=2",
     );
     tl.fromTo(
       ".as__documentos .as__documentos_content h4 span",
@@ -70,7 +70,7 @@ export default function Cifras() {
         opacity: 1,
         stagger: 0.4,
       },
-      "-=3"
+      "-=3",
     );
     tl.fromTo(
       ".as__documentos .as__documentos_content_info",
@@ -81,7 +81,7 @@ export default function Cifras() {
         duration: 2,
         opacity: 1,
       },
-      "-=2"
+      "-=2",
     );
     tl.addLabel("end", "-=4");
     tl.fromTo(
@@ -92,7 +92,7 @@ export default function Cifras() {
         scale: 1,
         duration: 3,
       },
-      "end"
+      "end",
     );
     tl.fromTo(
       ".as__documentos .img_doc_2",
@@ -102,7 +102,7 @@ export default function Cifras() {
         scale: 1,
         duration: 3,
       },
-      "end"
+      "end",
     );
     tl.fromTo(
       ".as__documentos .img_doc_3",
@@ -112,7 +112,7 @@ export default function Cifras() {
         scale: 1,
         duration: 3,
       },
-      "end"
+      "end",
     );
 
     const scroll = ScrollTrigger.create({

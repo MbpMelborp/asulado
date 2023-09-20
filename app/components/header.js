@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
 
-import logo from "@/public/images/header_logo.svg";
+import logo from "../../public/images/header_logo.svg";
 
 export default function Header() {
   const lenis = useLenis(({ scroll }) => {
@@ -33,7 +33,7 @@ export default function Header() {
           aria-expanded="false"
         >
           <span className="sr-only">Abrir menú</span>
-          <i className="text-xl fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars text-xl"></i>
         </button>
 
         <div className="as__nav_links" id="navbar-default">

@@ -9,9 +9,9 @@ import gsap from "gsap";
 import AnimAnciana from "./Banners/Animanciana.js";
 import Animaninos from "./Banners/Animaninos.js";
 
-import banner_anciana from "@/public/images/img_anciana.webp";
-import banner_nino from "@/public/images/img_nino.webp";
-import banner_nino_mano from "@/public/images/svg_nino_mano.webp";
+import banner_anciana from "../../../public/images/img_anciana.webp";
+import banner_nino from "../../../public/images/img_nino.webp";
+import banner_nino_mano from "../../../public/images/svg_nino_mano.webp";
 
 export default function Servicios() {
   useLenis();
@@ -32,7 +32,7 @@ export default function Servicios() {
         yoyo: true,
         stagger: 0.2,
       },
-      "0"
+      "0",
     );
 
     tl_banner.to(
@@ -46,7 +46,7 @@ export default function Servicios() {
         yoyo: true,
         stagger: 0.2,
       },
-      "0"
+      "0",
     );
     tl_banner.fromTo(
       ".as__banner .ban_nube_it",
@@ -62,7 +62,7 @@ export default function Servicios() {
         // yoyo: true,
         stagger: 0.2,
       },
-      "0"
+      "0",
     );
     tl_banner.fromTo(
       ".as__banner .ban_nube_dt",
@@ -78,7 +78,7 @@ export default function Servicios() {
         // yoyo: true,
         stagger: 0.2,
       },
-      "0"
+      "0",
     );
 
     const tl = gsap.timeline({ paused: false });
@@ -89,7 +89,7 @@ export default function Servicios() {
         opacity: 1,
         ease: "power2.out",
       },
-      "=0"
+      "=0",
     );
     tl.from(
       ".as__banner .as__banner_piso",
@@ -99,7 +99,7 @@ export default function Servicios() {
         opacity: 0,
         ease: "power2.inout",
       },
-      "-=1"
+      "-=1",
     );
     tl.from(
       ".as__banner_content h3 .ban_anim1",
@@ -110,7 +110,7 @@ export default function Servicios() {
         stagger: 0.2,
         ease: "power2.out",
       },
-      "-=1"
+      "-=1",
     );
 
     tl.fromTo(
@@ -128,7 +128,7 @@ export default function Servicios() {
         stagger: 0.1,
         ease: "power2.out",
       },
-      "-=1"
+      "-=1",
     );
     gsap.set(".as__banner_right", { opacity: 1 });
     tl.fromTo(
@@ -144,7 +144,7 @@ export default function Servicios() {
         stagger: 0.1,
         ease: "power2.out",
       },
-      "-=1"
+      "-=1",
     );
     // tl.fromTo(
     //   ".as__cifras .as__cifras_content .as__cifras_content_cifra",

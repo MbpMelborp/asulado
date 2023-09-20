@@ -12,8 +12,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 import Button from "../button";
 
-import img_renta from "@/public/images/img_renta.png";
-import img_seguro from "@/public/images/img_seguro.png";
+import img_renta from "../../../public/images/img_renta.png";
+import img_seguro from "../../../public/images/img_seguro.png";
 
 export default function Servicios() {
   useLenis();
@@ -31,7 +31,7 @@ export default function Servicios() {
         y: 0,
         stagger: 1,
       },
-      "-=0"
+      "-=0",
     );
     tl.fromTo(
       ".as__servicios_image img",
@@ -42,18 +42,18 @@ export default function Servicios() {
         duration: 2,
         stagger: 0.2,
       },
-      "-=1"
+      "-=1",
     );
     tl.from(
       ".img_renta",
       { backgroundColor: "transparent", duration: 2 },
-      "-=3"
+      "-=3",
     );
 
     tl.from(
       ".img_seguro",
       { backgroundColor: "transparent", duration: 2 },
-      "-=3"
+      "-=3",
     );
 
     const scroll = ScrollTrigger.create({
