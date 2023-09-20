@@ -9,9 +9,9 @@
     @apply min-h-max;
   }
   .as__banner_content {
-    @apply col-span-6 col-start-1 row-span-2 row-start-1 mx-auto flex w-full flex-col items-center justify-center text-center sm:col-span-4 sm:col-start-2 sm:row-span-2 sm:row-start-2 md:col-span-2 md:col-start-3 md:row-span-4 md:row-start-1;
+    @apply col-span-6 col-start-1 row-span-3 row-start-1 mx-auto flex w-full flex-col items-center justify-center text-center sm:col-span-4 sm:col-start-2 sm:row-span-2 sm:row-start-2 md:col-span-2 md:col-start-3 md:row-span-4 md:row-start-1;
     h3 {
-      @apply mb-20 mt-auto flex w-full flex-col gap-y-4 px-4 font-vice opacity-0 md:px-0;
+      @apply my-auto sm:mb-20 sm:mt-auto flex w-full flex-col gap-y-4 px-4 font-vice opacity-0 md:px-0;
       span {
         @apply flex w-full flex-grow items-center justify-between gap-x-4 text-[6vw] leading-[1em] text-azul-dark sm:text-[3.5vw] md:text-[3vw];
         &:after {
