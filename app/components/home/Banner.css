@@ -1,0 +1,76 @@
+.as__banner {
+  background-image: radial-gradient(
+    110.77% 55.84% at 51.35% 73.87%,
+    #f7fcff 0%,
+    #fff 100%
+  );
+  @apply relative grid min-h-[60vh] grid-cols-6 grid-rows-5 overflow-hidden md:min-h-[90vh];
+  .as__banner_content {
+    @apply col-span-6 col-start-1 row-span-2 row-start-2 mx-auto flex w-full flex-col items-center justify-center text-center md:col-span-2 md:col-start-3 md:row-span-4 md:row-start-1;
+    h3 {
+      @apply mb-20 mt-auto flex w-full flex-col gap-y-4 px-4 font-vice opacity-0 md:px-0;
+      span {
+        @apply flex w-full flex-grow items-center justify-between gap-x-4 text-[6vw] leading-[1em] text-azul-dark md:text-[3vw];
+        &:after {
+          @apply block h-0.5 w-auto flex-auto bg-azul-dark;
+          content: "";
+        }
+        &:before {
+          @apply block  h-0.5 w-auto flex-auto bg-azul-dark;
+          content: "";
+        }
+      }
+      b {
+        @apply text-[18vw] font-normal leading-[0.6em] text-azul-dark md:text-[6vw];
+      }
+      strong {
+        @apply text-[12vw] font-normal leading-none text-azul-bold md:text-[4vw] md:leading-[0.8em];
+      }
+    }
+  }
+  .as__banner_elements {
+    @apply relative z-0 col-span-6 col-start-1 row-span-5 row-start-1 flex h-auto items-center justify-center overflow-hidden md:row-span-5 md:row-start-1;
+    svg {
+      @apply absolute z-0 h-[336px] w-[800px] md:relative md:h-full md:w-full;
+    }
+  }
+  .as__banner_piso {
+    background: radial-gradient(
+      53.31% 117.65% at 54.89% 12.61%,
+      #d5e8f6 0%,
+      rgba(255, 255, 255, 0.39) 100%
+    );
+    @apply z-0 col-span-6 col-start-1 row-span-1 row-start-5;
+  }
+  .as__banner_left {
+    @apply z-10 col-span-4 col-start-1 row-span-5 row-start-1 grid items-start overflow-hidden md:col-span-2 md:col-start-1 md:row-span-6 md:row-start-1 md:items-end;
+    .as__banner_left_int {
+      @apply col-span-1 col-start-1 row-span-1 row-start-1 mt-auto flex w-full justify-center overflow-hidden opacity-0;
+      img,
+      svg {
+        @apply -ml-[20%] mb-8 w-full md:ml-0 md:w-[80%];
+      }
+    }
+  }
+  .as__banner_right {
+    @apply z-10 col-span-4 col-start-3 row-span-6 row-start-1 grid items-end overflow-hidden opacity-0 md:col-span-2 md:col-start-5;
+    .as__banner_right_int {
+      @apply col-span-1 col-start-1 row-span-1 row-start-1 mt-auto w-full overflow-hidden;
+      img,
+      svg {
+        @apply ml-[20%] w-full md:ml-0 md:w-full;
+        /* @apply object-cover w-[120%]  mx-auto; */
+      }
+    }
+  }
+
+  /*img {
+    @apply w-full h-full object-cover md:min-h-[70vh] xl:min-h-[85vh];
+  }
+  .base-canvas-size {
+    @apply w-full aspect-video;
+  }
+  canvas {
+    @apply w-full h-full object-contain object-bottom border-0;
+  }*/
+}

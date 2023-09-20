@@ -1,0 +1,15 @@
+.as__blog {
+  @apply overflow-hidden bg-gradient-to-b from-[#F4F9FC] to-[#E9F3FA] pb-0 pt-28;
+  .as__section_content {
+    @apply flex flex-col justify-between gap-y-4 md:flex-row md:items-center;
+    .as__title_section {
+      @apply text-azul-dark;
+    }
+    .as__button {
+      @apply justify-start;
+    }
+  }
+  .as__blog_posts {
+    @apply mt-24 grid grid-cols-1 overflow-hidden md:grid-cols-4 md:gap-0;
+  }
+}
