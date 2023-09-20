@@ -1,5 +1,5 @@
 .as_proposito {
-  @apply overflow-hidden grid grid-cols-1 grid-rows-1 bg-gradient-to-b from-[#F6F9FC] to-white py-12 md:pb-16 md:pt-28;
+  @apply z-10 grid grid-cols-1 grid-rows-1 bg-gradient-to-b from-[#F6F9FC] to-white py-12 sm:overflow-hidden md:pb-16 md:pt-28;
 
   .as__section_wrapper {
     @apply z-10 col-start-1 col-end-1 row-start-1 row-end-2;
@@ -7,7 +7,7 @@
       @apply text-azul-dark;
     }
     .as_proposito_content {
-      @apply mt-10 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 py-12 text-center font-vice text-3xl font-bold leading-6 md:pb-14 md:pt-28 md:text-5xl md:leading-none;
+      @apply mt-20 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 py-12 text-center font-vice text-3xl font-bold leading-6 sm:mt-10 md:pb-14 md:pt-28 md:text-5xl md:leading-none;
       span {
         @apply text-azul-dark;
       }
@@ -26,7 +26,7 @@
   .as__proposito_ilus {
     @apply z-0 col-start-1 col-end-1 row-start-1 row-end-2;
     svg {
-      @apply -mt-20 max-h-[360px] w-full;
+      @apply -mt-16 max-h-[360px] w-full sm:-mt-20;
     }
   }
 }
