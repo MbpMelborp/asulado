@@ -26,7 +26,7 @@
     h3 {
       @apply font-je my-auto flex w-full flex-col gap-y-4 px-4 text-center font-bold opacity-0 sm:mb-20 sm:mt-auto md:px-0;
       span {
-        @apply flex w-full flex-grow items-center justify-between gap-x-4 text-[6vw] font-bold leading-[1em] text-azul-dark sm:text-[3.5vw] md:text-[3vw];
+        @apply flex w-full flex-grow items-center justify-between gap-x-4 text-[6vw] font-bold leading-[1em] text-azul-dark sm:text-[3.5vw] md:text-[3vw] 2xl:text-6xl;
         &:after {
           @apply block h-0.5 w-auto flex-auto bg-azul-dark;
           content: "";
@@ -37,10 +37,10 @@
         }
       }
       b {
-        @apply text-center text-[12vw] font-bold leading-[0.6em] text-azul-dark sm:text-[10vw] md:text-[6vw];
+        @apply 2xl:leading-[0.6em] text-center text-[12vw] font-bold leading-[0.6em] text-azul-dark sm:text-[10vw] md:text-[6vw] 2xl:text-8xl;
       }
       strong {
-        @apply text-center text-[7.4vw] font-bold leading-none text-azul-bold sm:text-[7vw] md:text-[4vw] md:leading-[0.8em];
+        @apply text-center text-[7.4vw] font-bold leading-none text-azul-bold sm:text-[7vw] md:text-[4vw] md:leading-[0.8em] 2xl:text-6xl;
       }
     }
   }
