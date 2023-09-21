@@ -16,7 +16,18 @@ export default function Header() {
         .classList.remove("as__header_scroll");
     }
   });
-
+  function handleMenu() {
+    // lenis.scroll = window.scrollY;
+    // console.log(document.querySelector("body").classList);
+    if (!open) {
+      document.querySelector("body").classList.add("overflow-hidden");
+      lenis.stop();
+    } else {
+      document.querySelector("body").classList.remove("overflow-hidden");
+      lenis.start();
+    }
+    setOpen(!open);
+  }
   const [open, setOpen] = useState(false);
 
   return (
@@ -34,7 +45,7 @@ export default function Header() {
           className="as__nav_button"
           aria-controls="navbar-default"
           aria-expanded="false"
-          onClick={() => setOpen(!open)}
+          onClick={handleMenu}
         >
           <span className="sr-only">Abrir menú</span>
           <i

@@ -1,5 +1,5 @@
 .as_servicios {
-  @apply overflow-hidden bg-BG-1 pb-28 pt-16 z-0;
+  @apply z-0 overflow-hidden bg-BG-1 pb-28 pt-16;
   .as__servicios_wrapper {
     @apply relative mt-10 flex w-full flex-col flex-wrap items-stretch justify-between gap-y-16 md:flex-row md:gap-y-0;
     &:before {
@@ -29,7 +29,7 @@
       .as__servicios_content {
         @apply z-10 mb-4 mt-[-1em] flex h-auto flex-col space-y-4 md:mt-[-3em];
         h2 {
-          @apply font-vice text-4xl font-normal leading-[0.8em];
+          @apply mx-auto pr-12 font-vice text-4xl font-normal leading-[0.8em] md:mx-0 md:pr-0;
           span {
             @apply block text-azul-dark;
           }
@@ -38,11 +38,11 @@
           }
         }
         p {
-          @apply font-sans font-light text-azul-dark;
+          @apply mx-auto max-w-xl text-center font-sans font-light text-azul-dark md:mx-0 md:max-w-none md:text-left;
         }
       }
       .as__button {
-        @apply mt-auto self-start;
+        @apply mt-auto self-center md:self-start;
         &:hover ~ .as__servicios_content {
           @apply hidden;
         }
