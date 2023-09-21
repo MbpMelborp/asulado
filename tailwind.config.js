@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         vice: ["var(--font-vice)"],
+        je: ["var(--font-je)"],
         sans: ["var(--font-avenir)"],
       },
       colors: {

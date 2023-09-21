@@ -31,7 +31,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="as__header">
+    <header className={"as__header " + (open && "open")}>
       <nav>
         <Link href="/" className="as__logo" title="ASULADO">
           <Image src={logo} alt="asulado" />

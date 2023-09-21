@@ -42,15 +42,35 @@ const avenir = localFont({
   variable: "--font-avenir",
 });
 
-const vice = localFont({
+// const vice = localFont({
+//   src: [
+//     {
+//       path: "../fonts/vice.woff",
+//       weight: "600",
+//       style: "normal",
+//     },
+//   ],
+//   variable: "--font-vice",
+// });
+const jeko = localFont({
   src: [
     {
-      path: "../fonts/vice.woff",
-      weight: "600",
+      path: "../fonts/je_bold.woff",
+      weight: "bold",
+      style: "normal",
+    },
+    {
+      path: "../fonts/je_light.woff",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../fonts/je_reg.woff",
+      weight: "400",
       style: "normal",
     },
   ],
-  variable: "--font-vice",
+  variable: "--font-je",
 });
 
 const debug = process.env.NODE_ENV === "development" ? "debug-screens" : "";
@@ -81,7 +101,7 @@ export default function RootLayout({ children }) {
         crossorigin="anonymous"
       ></Script>
       <body
-        className={`${vice.variable} ${avenir.variable} ${debug} font-sans `}
+        className={`${jeko.variable} ${avenir.variable} ${debug} font-sans `}
       >
         <Header />
         <div className="as__wrapper">{children}</div>

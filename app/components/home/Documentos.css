@@ -9,7 +9,7 @@
       .as__documentos_content {
         @apply z-10 order-2 col-start-1 col-end-1 row-start-2 row-end-3 -mt-12 flex w-full flex-col items-center justify-between md:row-start-1 md:row-end-1 md:mt-0 md:flex-row;
         h4 {
-          @apply w-full font-vice text-5xl text-azul-dark md:w-2/6 md:text-5xl;
+          @apply font-je w-full text-5xl font-bold text-azul-dark md:w-2/6 md:text-5xl;
         }
         .as__documentos_content_info {
           @apply flex w-full flex-col items-start space-y-4 pt-5 md:w-2/6;
