@@ -8,11 +8,11 @@
   @apply flex items-center justify-between bg-transparent py-2 transition-colors duration-300 ease-in-out lg:px-4;
   &.as__header_scroll,
   &.open {
-    @apply  border-b border-gray-100 bg-white bg-opacity-50 backdrop-blur-3xl lg:bg-opacity-90 lg:backdrop-blur-sm;
+    @apply border-b border-gray-100 bg-white bg-opacity-50 backdrop-blur-3xl lg:bg-opacity-90 lg:backdrop-blur-sm;
   }
 }
 .as__header {
-  @apply fixed left-0 right-0 top-0 z-50 w-full font-sans animate-in slide-in-from-top duration-700 delay-300; 
+  @apply fixed left-0 right-0 top-0 z-50 w-full font-sans delay-300 duration-700 animate-in slide-in-from-top;
   &.open {
     .as__nav_button {
       @apply bg-azul-bold text-white focus:ring-blue-200;
@@ -40,7 +40,7 @@
       @apply hidden h-auto min-h-screen w-full items-center justify-center  lg:block lg:min-h-max lg:w-auto lg:bg-transparent lg:backdrop-blur-none;
 
       &.nav_open {
-        @apply block animate-in fade-in duration-700;
+        @apply block duration-700 animate-in fade-in;
       }
       ul {
         @apply flex h-full min-h-screen w-full flex-col items-center py-20 lg:h-auto lg:min-h-max lg:flex-row lg:gap-x-1  lg:border-0 lg:p-0 xl:gap-x-5;
@@ -83,7 +83,7 @@
 }
 
 .as__title_section {
-  @apply font-je flex gap-x-4 align-bottom text-xl font-bold leading-none;
+  @apply flex gap-x-4 align-bottom font-je text-xl font-bold leading-none;
   &:after {
     @apply mb-0.5 inline-block h-0.5 w-4 self-end bg-primary;
     content: "";
@@ -93,7 +93,7 @@
 .as__marquee {
   @apply flex w-full flex-col overflow-hidden whitespace-nowrap;
   div {
-    @apply font-je whitespace-nowrap text-[12em] font-bold  leading-none md:text-[20em];
+    @apply whitespace-nowrap font-je text-[12em] font-bold  leading-none md:text-[20em];
     &.as__marquee_to_left {
       @apply self-start;
     }

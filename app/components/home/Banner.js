@@ -103,7 +103,7 @@ export default function Servicios() {
       "-=1",
     );
     tl.from(
-      ".as__banner_content h3 .ban_anim1",
+      ".as__banner_content h1 .ban_anim1",
       {
         scale: 0.8,
         duration: 1,
