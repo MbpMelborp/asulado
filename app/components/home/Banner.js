@@ -257,8 +257,6 @@ export default function Servicios() {
         </div>
       </div>
 
-      {/* <Rive src="./sk.riv" className="base-canvas-size" /> */}
-      {/* <Image src={banner_home} alt="asulado" /> */}
     </section>
   );
 }
