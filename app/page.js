@@ -1,6 +1,8 @@
 "use client";
 
-import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
+import Head from "next/head";
+
+import { ReactLenis } from "@studio-freight/react-lenis";
 
 import Banner from "./components/home/Banner";
 import Servicios from "./components/home/Servicios";
@@ -13,6 +15,14 @@ import Footer from "./components/footer";
 export default function Home() {
   return (
     <ReactLenis root smoothWheel>
+      <Head>
+        <title>Inicio | ASULADO</title>
+        <meta
+          name="description"
+          content="Transformamos esfuerzos de vida en beneficios garantizados que generan tranquilidad y libertad."
+          key="desc"
+        />
+      </Head>
       <main className="as__page_home">
         <Banner></Banner>
         <Servicios></Servicios>

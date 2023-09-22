@@ -1,3 +1,5 @@
+"use client";
+
 import "./Cifras.css";
 
 import { useState } from "react";

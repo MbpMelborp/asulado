@@ -1,3 +1,5 @@
+"use client";
+
 import "./Blog.css";
 
 import Image from "next/image";

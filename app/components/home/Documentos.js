@@ -1,3 +1,5 @@
+"use client";
+
 import "./Documentos.css";
 
 import Image from "next/image";

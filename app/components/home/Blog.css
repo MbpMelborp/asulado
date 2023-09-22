@@ -10,6 +10,6 @@
     }
   }
   .as__blog_posts {
-    @apply mt-24 grid grid-cols-1 overflow-hidden 2xl:container md:grid-cols-4 md:gap-0 2xl:mx-auto;
+    @apply mt-24 grid grid-cols-1 overflow-hidden 2xl:container md:grid-cols-2 lg:grid-cols-4 md:gap-0 2xl:mx-auto;
   }
 }

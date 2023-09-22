@@ -10,7 +10,7 @@
       }
     }
     img {
-      @apply order-1 mt-auto md:order-2;
+      @apply order-1 mt-auto md:order-2 w-full;
     }
     .as__post_small_content {
       @apply order-3 mt-auto block flex-col space-y-2 px-4 pb-8  text-azul-dark md:hidden;

@@ -1,3 +1,5 @@
+"use client";
+
 import "./Proposito.css";
 
 import Image from "next/image";

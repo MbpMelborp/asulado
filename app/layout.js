@@ -42,16 +42,6 @@ const avenir = localFont({
   variable: "--font-avenir",
 });
 
-// const vice = localFont({
-//   src: [
-//     {
-//       path: "../fonts/vice.woff",
-//       weight: "600",
-//       style: "normal",
-//     },
-//   ],
-//   variable: "--font-vice",
-// });
 const jeko = localFont({
   src: [
     {
@@ -72,6 +62,17 @@ const jeko = localFont({
   ],
   variable: "--font-je",
 });
+
+// const vice = localFont({
+//   src: [
+//     {
+//       path: "../fonts/vice.woff",
+//       weight: "600",
+//       style: "normal",
+//     },
+//   ],
+//   variable: "--font-vice",
+// });
 
 const debug = process.env.NODE_ENV === "development" ? "debug-screens" : "";
 
@@ -106,7 +107,7 @@ export default function RootLayout({ children }) {
         <Header />
         <div className="as__wrapper">{children}</div>
         <div className="as__header_vigilado">
-          <Image src={vigilado} alt="vigilado" />
+          <Image src={vigilado} alt="Vigilado" />
         </div>
       </body>
     </html>

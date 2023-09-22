@@ -1,3 +1,4 @@
+"use client";
 import "./Banner.css";
 
 import Image from "next/image";
@@ -83,7 +84,7 @@ export default function Servicios() {
 
     const tl = gsap.timeline({ paused: false });
     tl.to(
-      ".as__banner_content h3 ",
+      ".as__banner_content h1 ",
       {
         duration: 1,
         opacity: 1,
@@ -182,11 +183,11 @@ export default function Servicios() {
   return (
     <section className="as__section as__banner">
       <div className="as__banner_content">
-        <h3>
+        <h1>
           <span className="ban_anim1">Bienvenido a</span>{" "}
           <b className="ban_anim1">ASULADO</b>{" "}
           <strong className="ban_anim1">Seguros de Vida</strong>
-        </h3>
+        </h1>
       </div>
       <div className="as__banner_elements">
         <svg

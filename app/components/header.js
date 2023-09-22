@@ -64,48 +64,55 @@ export default function Header() {
         >
           <ul>
             <li>
-              <a href="#" aria-current="page">
+              <Link href="/" aria-current="page" title="INICIO">
                 INICIO
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" aria-current="page">
+              <Link href="/" aria-current="page" title="NOSOTROS">
                 NOSOTROS
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" aria-current="page">
+              <Link href="/" aria-current="page" title="PRODUCTOS">
                 PRODUCTOS
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" aria-current="page">
+              <Link href="/" aria-current="page" title="SOBREVIVENCIA">
                 SOBREVIVENCIA
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" aria-current="page">
+              <Link href="/" aria-current="page" title="INVALIDEZ">
                 INVALIDEZ
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" aria-current="page">
+              <Link href="/" aria-current="page" title="SOLICITUDES">
                 SOLICITUDES
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" aria-current="page">
+              <Link href="/" aria-current="page" title="PREGUNTAS">
                 PREGUNTAS
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="dest" aria-current="page">
+              <button
+                className="dest"
+                aria-current="page"
+                title="Blog | DE INTERÉS"
+              >
                 DE INTERÉS
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#" aria-current="page">
-                <i className="fa-solid fa-universal-access"></i>
+              <a href="#" aria-current="page" title="Usabilidad">
+                <i
+                  role="presentation"
+                  className="fa-solid fa-universal-access"
+                ></i>
               </a>
             </li>
           </ul>

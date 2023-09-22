@@ -11,13 +11,13 @@ export default function Footer() {
           <div className="as__footer_contact_info">
             <div className="as_footer_ct">
               <div className="as_footer_ct_item">
-                <i className="fa-regular fa-envelope"></i>
+                <i role="presentation" className="fa-regular fa-envelope"></i>
                 <a className="ttle" href="mailto:info@asulado.com.co">
                   info@asulado.com.co
                 </a>
               </div>
               <div className="as_footer_ct_item">
-                <i className="fa-regular fa-building"></i>
+                <i role="presentation" className="fa-regular fa-building"></i>
                 <div>
                   <p className="ttle">Sede Administrativa</p>
                   <p>Carrera 43 A # 3 – 101 Piso 6</p>
@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
             <div className="as_footer_ct">
               <div className="as_footer_ct_item">
-                <i className="fa-regular fa-phone"></i>
+                <i role="presentation" className="fa-regular fa-phone"></i>
                 <div>
                   <p className="ttle">Marca desde tu teléfono fijo o celular</p>
                   <p>Línea nacional: 01 8000 412 854</p>
@@ -156,10 +156,10 @@ export default function Footer() {
           </ul>
           <div className="as__footer_social">
             <a href="#" className="dest" aria-current="page" title="Instagram">
-              <i className="fa-brands fa-instagram"></i>
+              <i role="presentation" className="fa-brands fa-instagram"></i>
             </a>
             <a href="#" className="dest" aria-current="page" title="Facebook">
-              <i className="fa-brands fa-facebook-f"></i>
+              <i role="presentation" className="fa-brands fa-facebook-f"></i>
             </a>
           </div>
         </div>

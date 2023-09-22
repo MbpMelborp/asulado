@@ -10,7 +10,7 @@ export default function PostSmall({ image, title, content }) {
       <Link href="/blog/5-consejos-para-aprovechar-el-seguro-previsional">
         <h4>{title}</h4>
         <div className="as__post_small_content">
-          <i className="fa-solid fa-circle-arrow-right"></i>
+          <i role="presentation" className="fa-solid fa-circle-arrow-right"></i>
           <p>{content}</p>
         </div>
         <Image src={image} alt="Asulado"></Image>
