@@ -128,12 +128,12 @@ export default function Cifras() {
               <h4>
                 <span>{clientes}</span>k
               </h4>
-              <p>clientes de Rentas Vitalicias</p>
+              <p>clientes de Rentas vitalicias</p>
             </div>
             <div className="as__cifras_content_cifra">
               <Image src={ILUS2} alt="asulado" />
               <h4>{cobertura}m</h4>
-              <p>de cobertura de afiliados a través del Seguro Previsional</p>
+              <p>de cobertura de afiliados a través del Seguro previsional</p>
             </div>
             <div className="as__cifras_content_cifra">
               <Image src={ILUS3} alt="asulado" />
