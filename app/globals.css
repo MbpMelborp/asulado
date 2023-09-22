@@ -83,7 +83,7 @@
 }
 
 .as__title_section {
-  @apply flex gap-x-4 align-bottom font-je text-xl font-bold leading-none;
+  @apply font-je flex gap-x-4 align-bottom text-xl font-bold leading-none;
   &:after {
     @apply mb-0.5 inline-block h-0.5 w-4 self-end bg-primary;
     content: "";
@@ -93,7 +93,7 @@
 .as__marquee {
   @apply flex w-full flex-col overflow-hidden whitespace-nowrap;
   div {
-    @apply whitespace-nowrap font-je text-[12em] font-bold  leading-none md:text-[20em];
+    @apply font-je whitespace-nowrap text-[12em] font-bold  leading-none md:text-[20em];
     &.as__marquee_to_left {
       @apply self-start;
     }

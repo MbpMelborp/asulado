@@ -3,14 +3,14 @@
   a {
     @apply flex h-full flex-col md:min-h-[380px] 2xl:min-h-[400px];
     h4 {
-      @apply font-je font-bold order-2 mb-8 px-4 pt-4 text-3xl font-bold leading-none text-azul-norm transition-all duration-500 ease-in-out md:order-1 md:mb-auto;
+      @apply font-je order-2 mb-8 px-4 pt-4 text-3xl font-bold font-bold leading-none text-azul-norm transition-all duration-500 ease-in-out md:order-1 md:mb-auto;
       &:after {
         @apply mb-7 mt-7 hidden h-1 w-6 bg-azul-dark md:block;
         content: "";
       }
     }
     img {
-      @apply order-1 mt-auto md:order-2 w-full;
+      @apply order-1 mt-auto w-full md:order-2;
     }
     .as__post_small_content {
       @apply order-3 mt-auto block flex-col space-y-2 px-4 pb-8  text-azul-dark md:hidden;
