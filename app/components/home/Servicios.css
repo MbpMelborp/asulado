@@ -29,12 +29,12 @@
       .as__servicios_content {
         @apply z-10 mb-4 mt-[-1em] flex h-auto flex-col space-y-4 md:mt-[-3em];
         h2 {
-          @apply relative font-je mx-auto pr-12 text-4xl font-bold leading-[0.8em] md:mx-0 md:pr-0;
+          @apply font-je relative mx-auto pr-12 text-4xl font-bold leading-[0.8em] md:mx-0 md:pr-0;
           span {
-            @apply z-10 block text-azul-dark;
+            @apply relative z-10 block text-azul-dark;
           }
           b {
-            @apply z-0 ml-8 inline-block rounded-full bg-white px-4 pb-1 pt-2 font-bold text-azul-bold;
+            @apply relative z-0 ml-8 inline-block rounded-full bg-white px-4 pb-1 pt-2 font-bold text-azul-bold;
           }
         }
         p {

@@ -133,7 +133,7 @@ export default function Cifras() {
             <div className="as__cifras_content_cifra">
               <Image src={ILUS2} alt="asulado" />
               <h4>{cobertura}m</h4>
-              <p>De cobertura de afiliados a través del Seguro Previsional</p>
+              <p>de cobertura de afiliados a través del Seguro Previsional</p>
             </div>
             <div className="as__cifras_content_cifra">
               <Image src={ILUS3} alt="asulado" />

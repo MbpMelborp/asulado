@@ -37,7 +37,7 @@
         }
       }
       b {
-        @apply 2xl:leading-[0.6em] text-center text-[12vw] font-bold leading-[0.6em] text-azul-dark sm:text-[10vw] md:text-[6vw] 2xl:text-8xl;
+        @apply text-center text-[12vw] font-bold leading-[0.6em] text-azul-dark sm:text-[10vw] md:text-[6vw] 2xl:text-8xl 2xl:leading-[0.6em];
       }
       strong {
         @apply text-center text-[7.4vw] font-bold leading-none text-azul-bold sm:text-[7vw] md:text-[4vw] md:leading-[0.8em] 2xl:text-6xl;

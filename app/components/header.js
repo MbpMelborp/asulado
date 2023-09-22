@@ -15,6 +15,7 @@ export default function Header() {
         .querySelector(".as__header")
         .classList.remove("as__header_scroll");
     }
+    1;
   });
   function handleMenu() {
     // lenis.scroll = window.scrollY;
