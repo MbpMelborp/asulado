@@ -75,7 +75,7 @@ export default function Cifras() {
             duration: 1,
             roundProps: "clientes",
             ease: "back.out",
-            delay: 1,
+            delay: 2,
             onUpdate: function () {
               setClientes(Math.round(counters.val));
             },
@@ -89,7 +89,7 @@ export default function Cifras() {
             duration: 1,
             roundProps: "cobertura",
             ease: "back.out",
-            delay: 2,
+            delay: 3,
             onUpdate: function () {
               setCobertura(Math.round(counters.val));
             },
@@ -103,7 +103,7 @@ export default function Cifras() {
             duration: 1,
             roundProps: "colaboradores",
             ease: "back.out",
-            delay: 3,
+            delay: 4,
             onUpdate: function () {
               setColaboradores(Math.round(counters.val));
             },

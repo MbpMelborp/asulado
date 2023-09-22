@@ -64,7 +64,7 @@ export default function Servicios() {
       start: "20% bottom",
       end: "center center",
       scrub: 3,
-      //   markers: true,
+      //markers: true,
       onUpdate: ({ progress }) => {
         // console.log(progress);
       },
