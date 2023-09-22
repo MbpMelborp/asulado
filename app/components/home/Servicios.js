@@ -87,9 +87,11 @@ export default function Servicios() {
                   <span>Renta</span> <b>vitalicia</b>
                 </h2>
                 <p>
-                  Es la mesada pensional que un beneficiario podrá recibir por
-                  el resto de su vida, aun cuando el monto ha logrado consolidar
-                  se haya terminado, traduciéndose en tranquilidad económica.
+                  Modalidad de pensión que se contrata con una aseguradora de
+                  vida, en la cual los pensionados reciben, de forma periódica,
+                  el pago de su renta pensional siempre que cumplan los
+                  requisitos establecidos en la normatividad vigente. Una renta
+                  vitalicia te ofrece tranquilidad y libertad.
                 </p>
               </div>
               <Button>MÁS INFORMACIÓN</Button>
@@ -104,9 +106,12 @@ export default function Servicios() {
                   <span>Seguro</span> <b>previsional</b>
                 </h2>
                 <p>
-                  Es la garantía que tienen todos los cotizantes pensionados
-                  anticipadamente por invalidez o fallecimiento, para hacer su
-                  ahorro efectivo, aun cuando no sea suficiente.
+                  Es el seguro que cubre a los afiliados a un fondo de pensiones
+                  ante los riesgos de invalidez y fallecimiento. Su propósito es
+                  completar el capital de su cuenta de ahorro individual para
+                  que el afiliado o su grupo familiar accedan a la pensión, ya
+                  sea por una situación de invalidez o fallecimiento del
+                  afiliado.
                 </p>
               </div>
               <Button>MÁS INFORMACIÓN</Button>
