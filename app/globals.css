@@ -47,12 +47,12 @@
         li {
           @apply my-auto w-full px-4 text-center md:w-auto md:px-0;
           a {
-            @apply block rounded-2xl px-2 pb-1.5 pt-2 text-xl leading-none text-primary transition-colors ease-in-out hover:bg-blue-100 hover:text-azul-bold md:px-0 md:text-sm;
+            @apply block rounded-2xl px-2 pb-1 pt-1.5 text-xl leading-none text-primary transition-colors ease-in-out hover:bg-blue-100 hover:text-azul-bold md:px-2 md:text-sm;
             i {
               @apply text-xl;
             }
             &.dest {
-              @apply block rounded-2xl border border-primary px-2 pb-1.5 pt-2 text-primary;
+              @apply block rounded-full border border-primary bg-white px-3 pb-1.5 pt-2 text-primary;
               &:hover {
                 @apply duration-700 animate-in fade-in;
               }
