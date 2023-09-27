@@ -86,7 +86,7 @@ export default function Servicios() {
               </div>
               <div className="as__servicios_content">
                 <h2>
-                  <span>Renta</span> <b>vitalicia</b>
+                  <span>Renta</span> <b>Vitalicia</b>
                 </h2>
                 <p>
                   Modalidad de pensión que se contrata con una Aseguradora de
@@ -105,7 +105,7 @@ export default function Servicios() {
               </div>
               <div className="as__servicios_content">
                 <h2>
-                  <span>Seguro</span> <b>previsional</b>
+                  <span>Seguro</span> <b>Previsional</b>
                 </h2>
                 <p>
                   Es el seguro que cubre a los afiliados a un Fondo de Pensiones

@@ -26,7 +26,7 @@
     h1 {
       @apply font-je my-auto flex w-full flex-col gap-y-4 px-4 text-center font-bold opacity-0 sm:mb-20 sm:mt-auto md:px-0;
       span {
-        @apply flex w-full flex-grow items-center justify-between gap-x-4 text-[6vw] font-bold leading-[1em] text-azul-dark sm:text-[3.5vw] md:text-[3vw] 2xl:text-6xl;
+        @apply flex w-full flex-grow items-center justify-between gap-x-4 text-[6vw] font-bold leading-[1em] text-primary sm:text-[3.5vw] md:text-[3vw] 2xl:text-6xl;
         &:after {
           @apply block h-0.5 w-auto flex-auto bg-azul-dark;
           content: "";
@@ -37,7 +37,7 @@
         }
       }
       b {
-        @apply text-center text-[12vw] font-bold leading-[0.6em] text-azul-dark sm:text-[10vw] md:text-[6vw] 2xl:text-8xl 2xl:leading-[0.6em];
+        @apply text-center text-[12vw] font-bold leading-[0.6em] text-primary sm:text-[10vw] md:text-[6vw] 2xl:text-8xl 2xl:leading-[0.6em];
       }
       strong {
         @apply text-center text-[7.4vw] font-bold leading-none text-azul-bold sm:text-[7vw] md:text-[4vw] md:leading-[0.8em] 2xl:text-6xl;
@@ -59,22 +59,22 @@
     @apply z-0 col-span-6 col-start-1 row-span-1 row-start-5;
   }
   .as__banner_left {
-    @apply z-10 col-span-4 col-start-1 row-span-5 row-start-3 grid items-start overflow-hidden  sm:col-span-2 sm:col-start-1 md:col-span-2 md:col-start-1 md:row-span-6 md:row-start-1 md:items-end;
+    @apply z-10 col-span-8 col-start-1 row-span-5 row-start-3 grid items-start overflow-hidden  sm:col-span-2 sm:col-start-1 md:col-span-2 md:col-start-1 md:row-span-6 md:row-start-1 md:items-end;
     .as__banner_left_int {
       @apply col-span-1 col-start-1 row-span-1 row-start-1 mt-auto flex w-full justify-center overflow-hidden opacity-0;
       img,
       svg {
-        @apply -ml-[20%] mb-8 w-full md:ml-0 md:w-[80%] 2xl:w-[75%];
+        @apply -ml-[10%] mb-8 w-3/5 sm:w-[99%] md:ml-0 md:w-[80%] 2xl:w-[80%];
       }
     }
   }
   .as__banner_right {
-    @apply z-10 col-span-4 col-start-3 row-span-6 row-start-3 grid items-end overflow-hidden  opacity-0 sm:col-span-3 sm:col-start-4 md:col-span-2 md:col-start-5 md:row-start-1;
+    @apply z-10 col-span-1 col-start-3 row-span-6 row-start-3 grid items-end overflow-hidden  opacity-0 sm:col-span-3 sm:col-start-4 md:col-span-2 md:col-start-5 md:row-start-1;
     .as__banner_right_int {
       @apply col-span-1 col-start-1 row-span-1 row-start-1 mt-auto w-full overflow-hidden;
       img,
       svg {
-        @apply ml-[20%] w-full sm:w-[70%] md:ml-0 md:w-full 2xl:w-[80%];
+        @apply hidden sm:inline-block ml-[40%] w-full sm:w-[55%] md:ml-[15%] md:w-[full] 2xl:w-[60%];
         /* @apply object-cover w-[120%]  mx-auto; */
       }
     }

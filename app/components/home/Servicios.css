@@ -31,7 +31,7 @@
         h2 {
           @apply font-je relative mx-auto pr-12 text-4xl font-bold leading-[0.8em] md:mx-0 md:pr-0;
           span {
-            @apply relative z-10 block text-azul-dark;
+            @apply relative z-10 block text-primary;
           }
           b {
             @apply relative z-0 ml-8 inline-block rounded-full bg-white px-4 pb-1 pt-2 font-bold text-azul-bold;
