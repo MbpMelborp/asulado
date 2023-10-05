@@ -74,7 +74,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/" aria-current="page" title="PRODUCTOS">
+              <Link href="/test" aria-current="page" title="PRODUCTOS">
                 PRODUCTOS
               </Link>
             </li>
